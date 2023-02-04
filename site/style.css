@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: lightgray;
+    display: flex;
+    padding: 20px;
+}
+
+#header-img {
+    border-radius: 100%;
+}
+
+header > ul {
+    width: 89%;
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
