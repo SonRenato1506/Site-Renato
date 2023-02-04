@@ -51,8 +51,56 @@ main {
     background-color: black;
     padding-left: 5%;
     padding-right: 5%;
+    padding-top: 50px;
+    display: flex;
 }
 
-#foto-grande {
+#foto-grande {  
     border-radius: 100%;
+}
+
+.main {
+    width: 25%;
+    border: 1px solid white;
+}
+
+.main1, .main2 {
+    margin-right: 5%;
+}
+
+.main1 {
+    padding: 10px;
+    
+}
+
+.main1 > div> img {
+    margin-left: 40px;
+}
+
+.main2 {
+    width: 35%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.main2 > h1 {
+    font-size: 41px;
+}
+
+.main3 {
+    padding-left: 30px;
+}
+
+.main3 > h2 {
+    text-align: center;
+    font-size: 34px;
+}
+
+.main3 > ul {
+    margin-top: 30px;
+}
+
+.main3 > ul > li {
+    margin-bottom: 10px;
+    font-size: 24px;
 }
