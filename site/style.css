@@ -5,7 +5,7 @@
 }
 
 header {
-    background-color: gray;
+    background-color: #a239ca;
     color: white;
     display: flex;
     padding: 20px;
@@ -43,12 +43,12 @@ header>ul>li>a {
 }
 
 #sobre {
-    color: purple;
+    color: black;
     font-weight: bolder;
 }
 
 main {
-    background-color: black;
+    background-color: #0E0B16;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 50px;
@@ -61,7 +61,13 @@ main {
 
 .main {
     width: 25%;
+}
+
+.main div {
+    margin-bottom: 20px;
     border: 1px solid white;
+    height: 234px;
+    padding: 10px;
 }
 
 .main1, .main2 {
@@ -70,37 +76,61 @@ main {
 
 .main1 {
     padding: 10px;
-    
 }
 
 .main1 > div> img {
-    margin-left: 40px;
+    margin-left: 10px;
 }
 
 .main2 {
+    font-size: 23px;
     width: 35%;
     text-align: center;
     padding-top: 30px;
+    border: 1px solid white;
+
+    margin-bottom: 30px;
 }
 
 .main2 > h1 {
     font-size: 41px;
 }
 
-.main3 {
+.main3> div,  .main1> div{
     padding-left: 30px;
+    
 }
 
-.main3 > h2 {
+.main3 > div > h2{
     text-align: center;
     font-size: 34px;
 }
 
-.main3 > ul {
+.main3 > div > h3 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.main3 > div > ul, .main1 > div > ul {
     margin-top: 30px;
 }
 
-.main3 > ul > li {
+.main3 > div > ul > li, .main1 > div > ul > li {
     margin-bottom: 10px;
     font-size: 24px;
+}
+
+
+#idiomas >  h3 {
+    font-size: 24px;
+    text-align: center;
+}
+
+#idiomas > ul > li {
+    text-align: justify;
+    font-size: 21px;
+}
+
+#cmc> ul > li {
+   font-size: 18px;
 }
