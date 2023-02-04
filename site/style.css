@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 header {
@@ -8,6 +9,7 @@ header {
     color: white;
     display: flex;
     padding: 20px;
+    padding-left: 10%;
 }
 
 #header-img {
@@ -19,7 +21,7 @@ header {
 }
 
 header>ul {
-    width: 89%;
+    width: 76%;
     justify-content: center;
     display: flex;
     gap: 40px;
@@ -38,4 +40,19 @@ header>ul>li>a {
     color: white;
     text-decoration: none;
     font-size: 21px;
+}
+
+#sobre {
+    color: purple;
+    font-weight: bolder;
+}
+
+main {
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#foto-grande {
+    border-radius: 100%;
 }

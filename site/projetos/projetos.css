@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: gray;
+    color: white;
+    display: flex;
+    padding: 20px;
+    padding-left: 10%;
+}
+
+#header-img {
+    border-radius: 100%;
+}
+
+#header-img:hover {
+    transform: scale(1.1);
+}
+
+header>ul {
+    width: 76%;
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+header>ul>li {
+    list-style: none;
+}
+
+header>ul>li:hover {
+    transform: scale(1.1);
+}
+
+header>ul>li>a {
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+#projetos {
+    color: orange;
+}
