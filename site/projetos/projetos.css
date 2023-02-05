@@ -4,7 +4,7 @@
 }
 
 header {
-    background-color: gray;
+    background-color: #a239ca;
     color: white;
     display: flex;
     padding: 20px;
@@ -42,5 +42,6 @@ header>ul>li>a {
 }
 
 #projetos {
-    color: orange;
+    color: black;
+    font-weight: bold;
 }

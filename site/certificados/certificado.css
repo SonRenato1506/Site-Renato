@@ -1,10 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 header {
-    background-color: gray;
+    background-color: #a239ca;
     color: white;
     display: flex;
     padding: 20px;
@@ -42,5 +43,6 @@ header>ul>li>a {
 }
 
 #certificado {
-    color: orange;
+    color: black;
+    font-weight: bold;
 }
