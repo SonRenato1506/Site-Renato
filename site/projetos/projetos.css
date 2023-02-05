@@ -58,38 +58,38 @@ main {
     text-align: center;
 }
 
-main > h1 {
+main>h1 {
     font-size: 48px;
     margin-bottom: 25px;
 }
 
-main > .linha {
+main>.linha {
     display: flex;
 }
 
-.linha > a {
+.linha>a {
     margin-bottom: 35px;
 }
 
-.linha > a > div {
+.linha>a>div {
     background-color: lightgray;
     padding-top: 20px;
     width: 300px;
     height: 300px;
     border-radius: 20px;
-    
+
 }
 
-.linha > a:hover {
+.linha>a:hover {
     transform: scale(1.1);
 }
 
-.linha > a > div > img {
+.linha>a>div>img {
     border-radius: 20px;
     margin-bottom: 50px;
 }
 
-.linha > a > div > button {
+.linha>a>div>button {
     height: 50px;
     width: 275px;
     font-weight: bold;
@@ -105,7 +105,7 @@ main > .linha {
 
 #games {
     background-color: darkblue;
-    color: lightgray;
+    color: white;
 }
 
 #midia {
@@ -113,6 +113,22 @@ main > .linha {
     color: black;
 }
 
-.col2, .col3 {
+#coffee {
+    background-color: navajowhite;
+    color: brown;
+}
+
+#android {
+    background-color: rgb(0, 80, 0);
+    color: white;
+}
+
+#cordel {
+    background-color: darkgreen;
+    color: yellow;
+}
+
+.col2,
+.col3 {
     margin-left: 120px;
 }
