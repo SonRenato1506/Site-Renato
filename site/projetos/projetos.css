@@ -138,6 +138,22 @@ main>.linha {
     color: violet;
 }
 
+#media {
+    background-color: white;
+    color: black;
+}
+
+#advin {
+    background-color: cyan;
+    color: white;
+    font-size: 18px;
+}
+
+#imc {
+    background-color: rgb(0, 0, 87);
+    color: white;
+}
+
 .col2,
 .col3 {
     margin-left: 120px;
