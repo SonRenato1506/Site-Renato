@@ -128,6 +128,16 @@ main>.linha {
     color: yellow;
 }
 
+#moveis {
+    background-color: white;
+    color: orange;
+}
+
+#trabalhos {
+    background-color: #410658;
+    color: violet;
+}
+
 .col2,
 .col3 {
     margin-left: 120px;
