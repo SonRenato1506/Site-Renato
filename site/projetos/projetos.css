@@ -16,6 +16,7 @@ header {
     padding-left: 10%;
 }
 
+
 #header-img {
     border-radius: 100%;
 }
@@ -154,7 +155,26 @@ main>.linha {
     color: white;
 }
 
+#timer {
+    background-color: black;
+    color: blue;
+}
+
 .col2,
 .col3 {
     margin-left: 120px;
+}
+
+@media (max-width: 1227px) {
+    header {
+        padding-left: 0;
+    }
+
+    main>.linha {
+        display: block;
+    }
+
+    main {
+        padding-left: 100px;
+    }
 }
