@@ -196,3 +196,19 @@ main>.linha {
         padding-left: 20px;
     }
 }
+
+@media (max-width: 375px) {
+
+    header {
+        padding-left: 5px;
+        gap: 5px;
+    }
+
+    header > ul >li > a {
+        font-size: 11px;
+    }
+
+    main {
+        padding-left: 25px;
+    }
+}
