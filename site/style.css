@@ -65,7 +65,8 @@ main {
 
 .main div {
     margin-bottom: 20px;
-    border: 1px solid white;
+    border: 2px solid white;
+    border-radius: 15px;
     height: 234px;
     padding: 10px;
 }
@@ -87,7 +88,8 @@ main {
     width: 35%;
     text-align: center;
     padding-top: 30px;
-    border: 1px solid white;
+    border: 2px solid white;
+    border-radius: 15px;
 
     margin-bottom: 30px;
 }
