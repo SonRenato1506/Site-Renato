@@ -177,4 +177,8 @@ main>.linha {
     main {
         padding-left: 100px;
     }
+
+    .linha {
+        margin-bottom: 20px;
+    }
 }
