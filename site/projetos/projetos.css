@@ -170,15 +170,25 @@ main>.linha {
         padding-left: 0;
     }
 
+    header > ul {
+        margin-left: 10px;
+        gap: 20px;
+    }
+
     main>.linha {
         display: block;
     }
 
     main {
         padding-left: 100px;
+        text-align: justify;
     }
 
     .linha {
         margin-bottom: 20px;
+    }
+
+    a > div {
+        padding-left: 10px;
     }
 }
