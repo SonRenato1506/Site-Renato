@@ -175,6 +175,10 @@ main>.linha {
         gap: 20px;
     }
 
+    header > ul >li > a {
+        font-size: 16px;
+    }
+
     main>.linha {
         display: block;
     }
