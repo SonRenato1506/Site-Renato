@@ -154,6 +154,16 @@ main {
     header>ul>li>a {
         font-size: 16px;
     }
+
+    main {
+        display: block;
+    }
+
+    .main {
+        width: 80%;
+    }
+
+
 }
 
 @media (max-width: 375px) {
