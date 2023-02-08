@@ -163,6 +163,14 @@ main {
         width: 80%;
     }
 
+    .main1 > div > a {
+        margin-left: 10%;
+    }
+
+    #idiomas > h3 {
+        text-align: left;
+    }
+
 
 }
 
