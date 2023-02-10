@@ -183,5 +183,13 @@ main {
     header>ul>li>a {
         font-size: 11px;
     }
+
+    main {
+        margin-left: 0;
+    }
+
+    div {
+        margin-left: 0;
+    }
 }
 
