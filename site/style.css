@@ -141,6 +141,37 @@ main {
     font-size: 18px;
 }
 
+footer {
+    /* background: linear-gradient(to bottom, #0E0B16, #3e0355); */
+    background-color: #0E0B16;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+footer p {
+    text-align: center;
+    color: rgb(100, 20, 100);
+}
+
+footer ul {
+    text-align: right;
+}
+
+footer li {
+    color: rgb(100, 20, 100);
+    list-style: none;
+}
+
+footer li a {
+    color: rgb(100, 20, 100);
+    text-decoration: none;
+    transition-duration: .5s;
+}
+
+footer li a:hover {
+    color: blueviolet;
+}
+
 @media (max-width: 1227px) {
     header {
         padding-left: 0;
@@ -192,4 +223,5 @@ main {
         margin-left: 0;
     }
 }
+
 
